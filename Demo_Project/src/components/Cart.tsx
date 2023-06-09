@@ -1,6 +1,5 @@
 import useCart from "../hooks/UseCart"
 import { useState } from "react"
-import cartContext from "../context/cartProvider"
 import CartLineItem from "./CartLineItem"
 
 const Cart = () => {

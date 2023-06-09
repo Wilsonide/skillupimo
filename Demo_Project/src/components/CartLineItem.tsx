@@ -1,6 +1,5 @@
 import {CartType} from '../context/cartProvider'
 import {ReducerAction,ReducerActionType} from '../context/cartProvider'
-import {memo} from 'react'
 
 type CartLineItemProps = {
     item: CartType,
@@ -44,5 +43,4 @@ function CartLineItem({item, REDUCER_ACTION, dispatch}:CartLineItemProps) {
   return content
 }
  
-const MemoizedCartLineItem = memo<typeof CartLineItem>(CartLineItem)
 export default CartLineItem
