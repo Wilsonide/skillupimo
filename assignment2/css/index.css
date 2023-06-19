@@ -249,8 +249,14 @@ img{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border-radius: 0 0 20px 20px;
     
     }
+.me{
+    margin-top: -50px;
+
+}
+
     .box2{
         flex: 3;
         margin-left: 0;
@@ -281,5 +287,8 @@ img{
     }
     
     
-
+.myButton{
+    height:60px ;
+    border-radius: 25px;
+}
 }
