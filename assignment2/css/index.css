@@ -295,9 +295,32 @@ img{
     
 }
 
-@media  (min-width: 1200px) and (max-width:1599px) {
-    .container{
-        height: 50vh;
-        width: 100%;
-    }
+@media  screen and (orientation:portrait) {
+    
+        .wrapper{
+            height: 100vh;
+            width:100%;
+            justify-content: space-between;
+        }
+
+        .box{
+            height: 50%;
+        }
+
 }
+
+@media  screen and (orientation:landscape) {
+    
+    .wrapper{
+        height: 100vh;
+        width:100%;
+        justify-content: space-between;
+    }
+
+    .box{
+        height: 50%;
+    }
+
+}
+
+
