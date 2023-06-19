@@ -280,27 +280,6 @@ img{
         width: 30px;
     }
     
-    .great{
-        font-size: 50px;
-        letter-spacing: 1.5px;
-    }
-    .myButton{
-        height: 60px;
-        border-radius: 20px;
     
-    }
 
-    .grey,.bold,.mob,.gray{
-        font-size: 30px;
-    }
-    .all{
-        height: 60px;
-        border-radius: 20px;
-    }
-
-    .header{
-        margin-left: 30px;
-        margin-top: 30px;
-        font-size: 35px;
-    }
 }
