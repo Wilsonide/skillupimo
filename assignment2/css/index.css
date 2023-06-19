@@ -253,7 +253,7 @@ img{
     
     }
 .me{
-    margin-top: -50px;
+    margin-top: -20px;
 
 }
 
@@ -284,6 +284,12 @@ img{
     #eye{
         height: 30px;
         width: 30px;
+    }
+
+    .header{
+        margin-left:20px ;
+        margin-top: -20px;
+        padding: 20px;
     }
     
     
