@@ -285,6 +285,8 @@ img{
         height: 30px;
         width: 30px;
     }
-    
+    .header{
+        margin-top: 20px;
+    }
     
 }
